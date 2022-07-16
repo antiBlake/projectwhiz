@@ -8,10 +8,19 @@ import Pricing from './Pages/Pricing';
 import Products from './Pages/Products';
 import Sharedlayout from './Pages/Sharedlayout';
 import Signup from './Pages/Signup';
-
+import Faq from './Components/Faq';
+import data from './Components/Data';
 
 
 function App() {
+  const faq = data.map(item =>{
+    
+    return (<Faq
+       key={item.id}
+        {...item} />
+    )
+    
+  })
   return (
     <>
 
@@ -27,6 +36,8 @@ function App() {
 
         </Route>
       </Routes>
+
+
       </>
 
   );
