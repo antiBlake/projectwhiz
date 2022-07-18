@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className='w-screen h-auto flex flex-col items-center border-2 border-green-200'>
+    <footer className=' h-auto flex flex-col items-center border-2 border-green-200 mt-10'>
         <div className='footercontain w-11/12 h-10/12 flex items-center justify-between  flex-row'>
             <div className='footerlogo w-2/12 '>
                 <img src='images/footerlogo.svg' />
@@ -37,7 +37,7 @@ const Footer = () => {
 
             
             <div className='copy flex justify-between  md:text-center text-gray-400 text-xs md:text-sm lg:text-base'>
-                <div className='copyright w-10/12 flex justify-start'>
+                <div className='copyright '>
                 Copyright 2022. ProjectWhiz, Inc. All rights reserved
                 </div>
                 <div className='endd flex gap-2 md:gap-12'>

@@ -177,11 +177,11 @@ const Home = () => {
                 
             </div>
             <div className='pricingcards grid grid-cols-1 md:grid-cols-2 justify-items-center gap-y-8 mt-12'>
-                <div className='pricing-card w-6/12 h-12/12 md:border-none border-2 border-green-200 rounded-lg md:shadow-xl'>
+                <div className='pricing-card w-8/12 h-12/12 md:border-none border-2 border-green-200 rounded-lg md:shadow-xl'>
                     <h3 className='w-10/12 flex justify-center lg:justify-start mt-4 mb-10 text-green-600 font-bold text-2xl text-center lg:m-left m-auto'>Standard Plan</h3>
                     <div className='amount flex text-gray-500 justify-around items-center '>
                         <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold'>$230.99</h2>
-                        <h5 className='flex justify-start text-xs lg:text-base'>Yearly </h5>
+                        <h5 className='flex justify-start text-xs lg:text-base font-medium'>Yearly </h5>
 
                     </div>
                     <div className='morefeatures w-12/12 my-10 flex lg:flex-row text-xs lg:text-sm xl:text-base'>
@@ -204,11 +204,11 @@ const Home = () => {
                     </div>
 
                 </div>
-                <div className='pricing-card w-6/12 h-12/12 md:border-none border-2 border-green-200 rounded-lg md:shadow-xl'>
+                <div className='pricing-card w-8/12 h-12/12 md:border-none border-2 border-green-200 rounded-lg md:shadow-xl'>
                     <h3 className='w-10/12 flex justify-center lg:justify-start mt-4 mb-10 text-green-600 font-bold text-2xl text-center lg:m-left m-auto'>Premium Plan</h3>
                     <div className='amount flex text-gray-500 justify-around items-center '>
                         <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold'>$110.99</h2>
-                        <h5 className='flex justify-start text-xs lg:text-base'>Per Month </h5>
+                        <h5 className='flex justify-start text-xs lg:text-base font-medium'>Per Month </h5>
 
                     </div>
                     <div className='morefeatures w-12/12 my-10 flex lg:flex-row text-xs lg:text-sm xl:text-base'>

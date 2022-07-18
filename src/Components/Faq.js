@@ -27,7 +27,7 @@ const Faq = (props) => {
         
 
     </div>
-    <div className={`faq-answer w-10/12 h-auto my-8 text-xs md:text-sm lg:text-base text-gray-400  ${faqbutton ? "" : "hidden"}`} >
+    <div className={`faq-answer w-12/12 h-auto my-8 text-xs md:text-sm lg:text-base text-gray-400  ${faqbutton ? "" : "hidden"}`} >
         
         {props.answer}
         
