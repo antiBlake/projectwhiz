@@ -34,9 +34,9 @@ const Contact = () => {
             <div className='details grid grid-cols-1 md:grid-cols-2 mt-20 mb-44'>
                 <div className='form-details p-4'>
                 <div className='contact-form  w-12/12 my-10 flex flex-col gap-4 text-xs lg:text-sm xl:text-base lg:items-center'>
-                    <input type='text' placeholder='Your full name' className='w-12/12 lg:w-6/12 h-8 md:h-10 border-2 border-gray-400 rounded-lg placeholder:pl-2 placeholder:text-gray-400'/>
-                    <input type='email' placeholder='mail@mail.com' className='w-12/12 lg:w-6/12 h-8 md:h-10 border-2 border-gray-400 rounded-lg placeholder:pl-2 placeholder:text-gray-400'/>
-                    <textarea rows='10' placeholder='Your message' className='w-12/12 lg:w-6/12  border-2 border-gray-300 rounded-lg placeholder:pl-2 placeholder:text-gray-400'/>
+                    <input type='text' placeholder='Your full name' className='w-12/12 lg:w-6/12 h-8 md:h-10 border border-gray-400 rounded-lg placeholder:pl-2 placeholder:text-gray-400 font-light'/>
+                    <input type='email' placeholder='mail@mail.com' className='w-12/12 lg:w-6/12 h-8 md:h-10 border border-gray-400 rounded-lg placeholder:pl-2 placeholder:text-gray-400 font-light'/>
+                    <textarea rows='10' placeholder='Your message' className='w-12/12 lg:w-6/12  border border-gray-300 rounded-lg placeholder:pl-2 placeholder:text-gray-400 font-light'/>
                     <button  className='w-12/12 lg:w-6/12 h-8 md:h-10 rounded-lg bg-green-500 text-white '>Send</button>
 
                 </div>
