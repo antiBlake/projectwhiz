@@ -8,11 +8,11 @@ const Nav = () => {
         <NavLink to="/"><img  src='images/logo.svg' /></NavLink>
             
         </div>
-        <div className='nav2 hidden md:w-6/12 lg:flex flex flex-col w-12/12 h-auto items-center md:flex-row md:items-center md:flex-wrap justify-center lg:justify-around py-2 mt-2 text-base'>
+        <div className='nav2 hidden md:w-6/12 lg:flex flex flex-col w-12/12 h-auto items-center md:flex-row md:items-center md:flex-wrap justify-center lg:justify-evenly py-2 mt-2 text-base'>
             <><NavLink to="/" className={({ isActive })=>(isActive ? "text-green-800 font-bold" : "text-gray-400")}>Home</NavLink></>
             <><NavLink to="/pricing" className={({ isActive })=>(isActive ? "text-green-800 font-bold" : "text-gray-400")}>Pricing</NavLink></>
-            <><NavLink to="/products" className={({ isActive })=>(isActive ? "text-green-800 font-bold" : "text-gray-400")}>Product & Services</NavLink></>
-            <><NavLink to="/about" className={({ isActive })=>(isActive ? "text-green-800 font-bold" : "text-gray-400")}>About</NavLink></>
+            {/* <><NavLink to="/products" className={({ isActive })=>(isActive ? "text-green-800 font-bold" : "text-gray-400")}>Product & Services</NavLink></>
+            <><NavLink to="/about" className={({ isActive })=>(isActive ? "text-green-800 font-bold" : "text-gray-400")}>About</NavLink></> */}
             <NavLink to="/contact" className={({ isActive })=>(isActive ? "text-green-800 font-bold" : "text-gray-400")}>Contact Us</NavLink>
         </div>
         <div className='nav3 w-3/12 hidden lg:flex flex-col md:flex-row md:flex-wrap items-center justify-evenly'>
