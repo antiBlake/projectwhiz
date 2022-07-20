@@ -20,7 +20,7 @@ const Home = () => {
 
                 </div>
                 <div className='newsletter w-12/12 my-10 flex lg:flex-row flex-col gap-4 text-xs lg:text-sm xl:text-base'>
-                    <input type='text' placeholder='Enter your Email here' className='w-12/12 lg:w-6/12 h-8 md:h-10 border-2 rounded-lg placeholder:pl-2'/>
+                    <input type='text' placeholder='Enter your Email here' className='w-12/12 lg:w-6/12 h-8 md:h-10 border-2 rounded-lg p-4 text-gray-600'/>
                     <button className='w-12/12 lg:w-4/12 h-8 md:h-10 rounded-lg bg-green-500 text-white lg:ml-4'>Get Started for Free</button>
 
                 </div>
