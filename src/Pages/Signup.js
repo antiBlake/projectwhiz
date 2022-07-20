@@ -14,7 +14,7 @@ const Signup = () => {
                 <input className='border rounded-lg font-light h-12 p-4' type='text' placeholder='Your full name' />
                 <input className='border rounded-lg font-light h-12 p-4' type='email' placeholder='mail@email.com' />
 
-                <input className='border rounded-lg font-light h-12 p-4' type='text' placeholder='6+ characters with one capital letter' />
+                <input className='border rounded-lg font-light h-12 p-4' type='password' placeholder='6+ characters with one capital letter' />
                 <button  className='w-12/12 h-12 md:h-12 rounded-lg bg-green-500 text-white '>Get Started</button>
                 <div className='or text-center'>
                     OR

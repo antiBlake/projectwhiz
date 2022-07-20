@@ -13,7 +13,7 @@ const Login = () => {
         <div className='form grid grid-cols-1 gap-8 md:gap-12 text-gray-400 md:w-7/12 mt-8'>
             <input className='border rounded-lg font-light h-12 p-4' type='email' placeholder='mail@email.com' />
 
-            <input className='border rounded-lg font-light h-12 p-4' type='text' placeholder='Enter Password' />
+            <input className='border rounded-lg font-light h-12 p-4' type='password' placeholder='Enter Password' />
             <button  className='w-12/12 h-12 md:h-12 rounded-lg bg-green-500 text-white '>Login</button>
 
         </div>
