@@ -28,10 +28,10 @@ const Footer = () => {
         <div className='lastfooter flex flex-col w-10/12'>
             <div className='socials flex justify-center sm:justify-end  my-12'>
                 <div className='arrangesocials pr-2 flex gap-6'>
-                    <img src='images/linkedin.png' className='w-6 h-6'/>
-                    <img src='images/twitter.png' className='w-6 h-6'/>
-                    <img src='images/facebook.png' className='w-6 h-6'/>
-                    <img src='images/instagram.png' className='w-6 h-6'/>
+                    <img src='images/linkedin.svg' className='w-6 h-6'/>
+                    <img src='images/twitter.svg' className='w-6 h-6'/>
+                    <img src='images/facebook.svg' className='w-6 h-6'/>
+                    <img src='images/instagram.svg' className='w-6 h-6'/>
                     </div>
             </div>
 
